@@ -63,7 +63,7 @@ function populateChart() {
   }
 
   let ctx = document.getElementById("myChart").getContext("2d");
-
+ 
   myChart = new Chart(ctx, {
     type: 'line',
       data: {
@@ -71,7 +71,7 @@ function populateChart() {
         datasets: [{
             label: "Total Over Time",
             fill: true,
-            backgroundColor: "#6666ff",
+            backgroundColor: "#db66ff",
             data
         }]
     }
